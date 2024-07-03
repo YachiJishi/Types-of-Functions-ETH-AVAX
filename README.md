@@ -15,16 +15,16 @@ A skeleton code is not provided in this project
 
 ### Installing
 
-* You can download the AvaToken.sol file by clicking on it, and then clicking the download button found at the top right corner of the text file. The download button is beside the copy raw file button.
+* You can download the Token.sol file by clicking on it, and then clicking the download button found at the top right corner of the text file. The download button is beside the copy raw file button.
 
 ### Executing program
 
 * Visit https://remix.ethereum.org
-* Upload AvaToken.sol using the upload files button above the folder named contracts
-* Compile AvaToken.sol in the Solidity compiler tab located on the left side of the screen. It is beside the Search in files button
+* Upload Token.sol using the upload files button above the folder named contracts
+* Compile Token.sol in the Solidity compiler tab located on the left side of the screen. It is beside the Search in files button
 * Click Deploy and run transactions button located below the Solidity compiler button on the left side of the screen.
-* Under Deploy and run transactions tab, select AvaToken.sol contract, input the initial supply and click Deploy
-* Under the section Deployed Contracts, expand AvaToken.sol
+* Under Deploy and run transactions tab, select Token.sol contract, input the initial supply and click Deploy
+* Under the section Deployed Contracts, expand Token.sol
 * Expand the burn, mint and transfer functions
 
 After executing these steps you will now be able to use the program. You can check your total supply by clicking on the total supply variable and expanding its call in the terminal.
@@ -35,7 +35,7 @@ You can use the mint, transfer, and burn functions by placing an address, and an
 ## Help
 
 Be sure to compile before deploying Token.sol </br>
-Be sure to select AvaToken.sol as the contract before deploying </br>
+Be sure to select Token.sol as the contract before deploying </br>
 Only the owner can use the mint function </br>
 You can use different accounts by expanding the account section under deploy and run transactions tab
 
