@@ -34,7 +34,7 @@ You can use the mint, transfer, and burn functions by placing an address, and an
 
 ## Help
 
-Be sure to compile before deploying AvaToken.sol </br>
+Be sure to compile before deploying Token.sol </br>
 Be sure to select AvaToken.sol as the contract before deploying </br>
 Only the owner can use the mint function </br>
 You can use different accounts by expanding the account section under deploy and run transactions tab
