@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract Token is ERC20 {
@@ -26,6 +25,11 @@ contract Token is ERC20 {
     }
 
     function transfer(address to, uint256 value) public override returns (bool) {
+        require(to != address(0), "Error: Transfer to the zero address");
+
+        uint256 senderBalance = balanceOf(msg.sender);
+        require(senderBalance >= value, "Error: Insufficient balance");
+
         _transfer(msg.sender, to, value);
         return true;
     }
